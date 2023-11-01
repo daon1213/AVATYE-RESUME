@@ -1,0 +1,106 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Daon</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="preconnect"
+      href="[https://fonts.googleapis.com](https://fonts.googleapis.com/)"
+    />
+    <!-- cross origin : 요청위치와 응답위치가 서로 다를 수 있으므로 -->
+    <link
+      rel="preconnect"
+      href="[https://fonts.gstatic.com](https://fonts.gstatic.com/)"
+      crossorigin=""
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&amp;family=Rubik+Bubbles&amp;family=Rubik+Puddles&amp;family=Rubik+Wet+Paint&amp;display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <script src="action.js"></script>
+  <body>
+    <header>
+      <p class="nobox">✨ Resume ✨</p>
+    </header>
+
+    <div class="mainbox">
+      <h1>정다온<br /></h1>
+      <h2>Android Developer</h2>
+      <hr />
+      <div class="sub-box">
+        <section>
+          <h3>ABOUT ME</h3>
+        </section>
+        <div class="img-box">
+          <img src="assets/Daon.png" width: 240px; height: 240px; object-fit:
+          cover;/>
+        </div>
+        <div class="font">
+          이름 : 정다온<br />
+          학교 : 광주소프트웨어마이스터고등학교<br />
+          전공 : 안드로이드 개발자<br />
+          생일 : 2005.12.13<br />
+          나이 : 19<br />
+          MBTI : ENFJ<br /><br />
+          Github<br />
+          <a href="https://github.com/daon1213">
+            <img class="sns-img" src="assets/github.png" />
+          </a>
+          <br />
+          Tistory<br />
+          <a href="https://ddevws.tistory.com/">
+            <img class="sns-img" src="assets/Tistory.png" />
+          </a>
+        </div>
+      </div>
+      <br />
+
+      <div class="sub-box">
+        <section>
+          <h3>EXPERIENCE</h3>
+        </section>
+        <div class="text-box">
+          <p class="text">AVATYE - Android Developer</p>
+          <p class="year-text">(2023.10 ~ now)</p>
+        </div>
+      </div>
+
+      <div class="sub-box">
+        <section>
+          <h3>STACK</h3>
+        </section>
+        <ul class="font">
+          <li>Kotlin</li>
+          <li>Java</li>
+        </ul>
+      </div>
+
+      <div class="sub-box">
+        <section>
+          <h3>PROJECT</h3>
+        </section>
+        <div class="text-box">
+          <p class="text">Kotlin - 곶감</p>
+          <p class="year-text">(2022.05 ~ 2022.09)</p>
+        </div>
+        <div class="text-box">
+          <p class="text">Kotlin - Jaschates</p>
+          <p class="year-text">(2022.11 ~ 2023.01)</p>
+        </div>
+        <div id="container"></div>
+        <div class="input-container">
+          <input type="text" id="input1" placeholder="프로젝트 이름" />
+          <input type="text" id="input2" placeholder="기간" />
+          <button onclick="addTextBox()">추가</button>
+        </div>
+      </div>
+      <br />
+      <hr />
+    </div>
+    <footer>
+      <p class="nobox">✨ Thank you ✨</p>
+    </footer>
+  </body>
+</html>
